@@ -13,7 +13,7 @@
             function onDeviceReady() {
                 $("#app-status-ul").append('<li>deviceready event received</li>');
                 
-        		document.addEventListener("backbutton", function(e)
+    			document.addEventListener("backbutton", function(e)
 				{
                 	$("#app-status-ul").append('<li>backbutton event received</li>');
   					
@@ -40,6 +40,7 @@
 						$("#app-status-ul").append('<li>registering iOS</li>');
                     	pushNotification.register(tokenHandler, errorHandler, {"badge":"true","sound":"true","alert":"true","ecb":"onNotificationAPN"});	// required!
                 	}
+                    initme();
                 }
 				catch(err) 
 				{ 
@@ -149,7 +150,7 @@
          </script>
 <title>Medical Center</title>
 </head>
-<body style="background: url(assets/images/splashscreen.png) no-repeat #58AB41 top left;" onload="initme()">
+<body style="background: url(assets/images/splashscreen.png) no-repeat #58AB41 top left;">
     
 </body>
 </html>
