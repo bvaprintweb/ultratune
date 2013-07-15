@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.bvaprintweb.medicalcenter"
+        id        = "com.bvaprintweb.ultratune"
         versionCode="10" 
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
 
-    <name>BVA Medical Center</name>
-    <description>BVA Medical Center</description>
+    <name>Ultra Tune</name>
+    <description>Ultra Tune Apps</description>
     <author href="http://bvaprintweb.com" email="jun@bvaprintweb.com">Juniawan</author>
 	<preference name="fullscreen" value="true" />
 	<preference name="stay-in-webview" value="true" />
@@ -20,6 +20,6 @@
 	<icon src="assets/images/ico57.png" gap:platform="ios" width="57" height="57" />
 	<icon src="assets/images/ico72.png" gap:platform="ios" width="72" height="72" />
 	<icon src="assets/images/ico114.png" gap:platform="ios" width="114" height="114" />
-	<gap:splash src="assets/images/startup.png" />
-	<gap:splash src="assets/images/startup.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="assets/images/splashscreen.png" />
+	<gap:splash src="assets/images/splashscreen.png" gap:platform="ios" width="320" height="480" />
 </widget>
