@@ -22,4 +22,5 @@
 	<icon src="assets/images/ico114.png" gap:platform="ios" width="114" height="114" />
 	<gap:splash src="assets/images/splashscreen.png" />
 	<gap:splash src="assets/images/splashscreen.png" gap:platform="ios" width="320" height="480" />
+	<access origin="*.pushwoosh.com"/>
 </widget>
