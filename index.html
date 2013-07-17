@@ -42,6 +42,7 @@
 					} else {
 						$("#app-status-ul").append('<li>registering iOS</li>');
                     	pushNotification.register(tokenHandler, errorHandler, {"badge":"true","sound":"true","alert":"true","ecb":"onNotificationAPN"});	// required!
+                	window.location='http://ultratune.bvadigitalagency.com/';
                 	}
                 }
 				catch(err) 
