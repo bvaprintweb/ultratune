@@ -27,6 +27,5 @@
 	<gap:splash src="assets/images/splashscreen.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="assets/images/splashscreen.png" gap:platform="android" gap:density="xhdpi" />
 	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
-	<feature name="http://api.phonegap.com/1.0/notification"/>
 	<access origin="*.pushwoosh.com"/>
 </widget>
