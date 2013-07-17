@@ -12,7 +12,7 @@
     <author href="http://bvaprintweb.com" email="jun@bvaprintweb.com">Juniawan</author>
 	<preference name="fullscreen" value="true" />
 	<preference name="stay-in-webview" value="true" />
-	<preference name="exit-on-suspend" value="true" />
+	<preference name="exit-on-suspend" value="false" />
 	<preference name="splash-screen-duration" value="5000" />
 	<preference name="load-url-timeout" value="60000" />
 	<preference name="webviewbounce" value="false" />
@@ -26,6 +26,6 @@
 	<gap:splash src="assets/images/splashscreen.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="assets/images/splashscreen.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="assets/images/splashscreen.png" gap:platform="android" gap:density="xhdpi" />
-	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
+	<gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.0" />
 	<access origin="*.pushwoosh.com"/>
 </widget>
